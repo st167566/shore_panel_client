@@ -1,0 +1,12 @@
+<!--pages/register_phone/register_phone.wxml-->
+<view>
+    <t-input
+        placeholder="请输入手机号码"
+        value="{{phoneNumber}}"
+        type="number"
+        error-message="{{phoneError ? '手机号输入不正确' : ''}}"
+        bindchange="onPhoneInput"
+    >
+        <view slot="suffix" class="verify"> 发送验证码 </view>
+    </t-input>
+</view>

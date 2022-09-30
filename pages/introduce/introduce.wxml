@@ -1,0 +1,11 @@
+<!--pages/introduce/introduce.wxml-->
+<view class="introduce-page">
+    <view class="content">
+        <block wx:for="{{30}}" wx:key="*this">
+            <text class="demoText" wx:for-item="item">
+                huala~ huala~ 很多介绍{{item}}
+            </text>
+        </block>
+    </view>
+    <t-button class="register-btm" block theme="primary" bindtap="bindViewTap">按钮</t-button>
+</view>

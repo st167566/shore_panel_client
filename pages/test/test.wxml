@@ -1,0 +1,5 @@
+<!--pages/test/test.wxml-->
+<view>
+    <text>pages/test/test.wxml</text>
+    <button bindtap="testApi">测试</button>
+</view>

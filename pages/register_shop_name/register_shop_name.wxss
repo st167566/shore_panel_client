@@ -1,0 +1,22 @@
+/* pages/register_shop_name/register_shop_name.wxss */
+
+.input-line-focus .t-input--bordered::after{
+    border-bottom: 1px solid#027AFF !important;
+}
+
+.tip-text {
+    font-size: 12px;
+    color: rgba(0,0,0,0.25);
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.comfirm-btn{
+    position: fixed;
+    bottom: calc(24px + constant(safe-area-inset-bottom));
+    bottom: calc(24px + env(safe-area-inset-bottom));
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+    padding: 0 24px;
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lottie-miniprogram": "^1.0.12",
+    "tdesign-miniprogram": "^0.20.0"
+  }
+}

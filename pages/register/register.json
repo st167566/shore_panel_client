@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "t-cell": "tdesign-miniprogram/cell/cell",
+        "t-divider": "tdesign-miniprogram/divider/divider",
+        "t-image": "tdesign-miniprogram/image/image",
+        "t-button": "tdesign-miniprogram/button/button"
+    },
+    "navigationBarTitleText": "商家注册"
+}

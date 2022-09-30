@@ -1,0 +1,9 @@
+/* pages/register_phone/register_phone.wxss */
+.error-msg {
+    text-align: right !important;
+  }
+  
+  .verify {
+    color: rgba(0, 82, 217, 1);
+    font-size: 32rpx;
+  }

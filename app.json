@@ -1,0 +1,21 @@
+{
+    "entryPagePath": "pages/test/test",
+    "pages": [
+        "pages/test/test",
+        "pages/dashboard/dashboard",
+        "pages/introduce/introduce",
+        "pages/index/index",
+        "pages/register/register",
+        "pages/register_shop_name/register_shop_name",
+        "pages/register_store_phone/register_store_phone"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "店铺面板",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

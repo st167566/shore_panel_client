@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="index-page" style="padding-top: {{statusBarHeight}}px;height: {{screenHeight}}px">
+  <view class="userinfo">
+    <block wx:if="{{canIUseOpenData}}">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+    </block>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="index-container">
+    <view class="lottie-box">
+        <canvas class="canvas" id="canvas" type="2d"></canvas>
+    </view>
+    <text class="loading-text">正在登录中，请稍后...</text>
+  </view>
+    <t-button block bindtap="testHasRegister" data-payload="{{true}}">已有账号</t-button>
+    <t-button block bindtap="testHasRegister" data-payload="{{false}}">暂无账号</t-button>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/register/register.wxml-->
+<view>
+    <t-cell title="店铺名称" required note="{{store_name}}" arrow bindtap="tapToUpdateName" />
+    <t-cell title="注册手机号码" required  hover note="{{store_phone}}" bindtap="tapToUpdatePhone" arrow bordered="{{false}}" />
+    <t-divider dashed content="（选填项）可后续在个人店铺信息中补充" />
+    <t-cell title="店铺LOGO" hover arrow >
+        <t-image  slot="note" t-class="store-logo" src="" mode="aspectFill" shape="round"></t-image>
+    </t-cell>
+    <t-cell title="店铺微信号"  hover note="wx_1521501OHY" arrow  />
+    <t-cell title="微信号二维码" hover arrow  bordered="{{false}}">
+        <t-image  slot="note" t-class="store-logo" src="" mode="aspectFill" shape="round"></t-image>
+    </t-cell>
+
+    <view class="register-btn">
+        <t-button theme="primary" block>注册</t-button>
+    </view>
+</view>

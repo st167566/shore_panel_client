@@ -1,0 +1,9 @@
+<!--pages/register_shop_name/register_shop_name.wxml-->
+<view class="{{bottomLine}}">
+    <t-input maxlength="{{60}}" value="{{store_name}}" bindfocus="onFocus" bindblur="onBlur" bindchange="changeName" />
+    <view class="tip-text">建议与交易平台店铺名称一致,最大输入60个字符。</view>
+
+    <view class="comfirm-btn">
+        <t-button theme="primary" block bindtap="onSubmit" disabled="{{!store_name.length}}">确定</t-button>
+    </view>
+</view>

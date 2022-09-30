@@ -1,0 +1,10 @@
+/* pages/register/register.wxss */
+
+.store-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.register-btn{
+    margin: 24px 16px;
+}
